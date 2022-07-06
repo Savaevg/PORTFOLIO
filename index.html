@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/png">
+    <link href="http://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/gilroy-medium" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="container"> 
+            <nav class="nav">
+                <ul class ="nav_columns">
+                    <li class="nav_item"><a href="#">Home</a></li>
+                    <li class="nav_item"><a href="#about">About me</a></li>
+                    <li class="nav_item"><a href="#skills">Skills</a></li>
+                    <li class="nav_item"><a href="#portfolio">Portfolio</a></li>
+                    <li class="nav_item"><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class = "hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+            <ul class ="menu_box">
+                <li class="menu_item"><a href="#">Home</a></li>
+                <li class="menu_item"><a href="#second">About me</a></li>
+                <li class="menu_item"><a href="#skills">Skills</a></li>
+                <li class="menu_item"><a href="#portfolio">Portfolio</a></li>
+                <li class="menu_item"><a href="#contacts">Contacts</a></li>
+            </ul>    
+        </div>
+    </header>
+    <section>
+        <article class="me">
+            <div class="container">
+                <div class="me_text">
+                    <div class="me_name">Evgeny <span>Savaniaka</span></div>
+                    <div class ="me_dev">Frontend Developer<span>25 years old, Grodno</span></div>
+                    <div class = "me_lang"><span>RU | ENG</span></div>
+                </div>
+                <div class="me_img">
+                    <img src="./img/wp9641838-front-end-developer-wallpapers.jpg" alt="#">
+                </div>
+                <div class="me_img2">
+                    <img src="./img/BSPP2266 (1).png" alt="#">
+                </div>
+            </div>
+        </article>
+        <article class="about" id="about">
+            <div class="container">
+                <div class="about-me">
+                    <div class="about-me_title">About me</div>
+                    <div class="about-me_text">
+                        <p>Hi, I'm Evgeny – frontend developer from Grodno. 
+                       <br> I'm interested in frontend development and everything connected with it.
+                           </p>
+                        <p>
+                            I'm studying at courses "The way FRONT-END"
+                            <br> in IT-OVERONE.</p>
+                        <p> Ready to implement excellent projects
+                            <br>with wonderful people.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class = "skills" id="skills">
+            <div class="container">
+                <div class = "skills-hed">
+                    <div class = "skills-hed_title">Skills</div>
+                </div>
+                <div class = "skills-columns">
+                    <div class="skills-lang">
+                        <div class="skills-lang_img">
+                            <img src="./img/vector/1.png" alt="">
+                        </div>
+                        <div class ="skills-lang_text">
+                         <span>HTML</span>
+                        </div>
+                    </div>
+                    <div class="skills-lang">
+                        <div class="skills-lang_img">
+                            <img src="./img/vector/2.png" alt="">
+                        </div>
+                        <div class ="skills-lang_text">
+                           <span>CSS</span>
+                        </div>
+
+                    </div>
+                    <div class="skills-lang">
+                        <div class="skills-lang_img">
+                            <img src="./img/vector/3.png" alt="">
+                        </div>
+                        <div class ="skills-lang_text">
+                             <span>JS</span>
+                        </div>
+
+                    </div>
+                    <div class="skills-lang">
+                        <div class="skills-lang_img">
+                            <img src="./img/vector/4.png" alt="">
+                        </div>
+                        <div class ="skills-lang_text">
+                            <span>REACT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="four" id="portfolio">
+            <div class="container">
+                <div class="portfolio">
+                    <div class="port__header">Portfolio</div>
+                <div class="port">
+                    <div class="port__img">
+                        <img src="./img/Portfolio/port1.png" alt="">
+                    </div>
+                    <div class="port_a">
+                        <a href="https://github.com/Savaevg/BANK.git" target="_blank">BANK.git</a>
+                    </div>
+                </div>
+                <div class="port">
+                    <div class="port__img">
+                        <img src="./img/Portfolio/port2.png" alt="">
+                    </div>
+                    <div class="port_a">
+                        <a href="https://github.com/Savaevg/BMI.git" target="_blank">BMI.git</a>
+                    </div>
+                </div>
+                <div class="port">
+                    <div class="port__img">
+                        <img src="./img/Portfolio/port3.png" alt="">
+                    </div>
+                    <div class="port_a">
+                        <a href="https://github.com/Savaevg/FIGMA.git">FIGMA.git</a>
+                    </div>
+                </div>
+                <div class="more"><h3><a href="https://github.com/Savaevg">GITHUB</a></h3></div>
+
+                </div>
+            </div>
+
+        </article>
+    </section>
+    <footer id="contacts">
+        <div class="container">
+            <div class="foot">
+                <div class="foot_title">Contacts</div>
+                <div class="foot_text">+375(33) 621-49-26</div>
+                <div class="foot__img">
+                    <a href="http://linkedin.com/in/evgeny-savaniaka-102221205" target="_blank"><img src="./img/footer/1.png" alt="linkedin"></a>
+                    <a href="http://t.me/sava0923" target="_blank"><img src="./img/footer/2.png" alt="telegram"></a>
+                    <a href="https://github.com/Savaevg" target="_blank"><img src="./img/footer/3.png" alt="github"></a>
+                    <a href="mailto:savaevg0923@gmail.com" target="_blank"><img src="./img/footer/4.png" alt="gmail"></a>
+                </div>
+                </div>
+
+            
+        </div>
+    </footer>
+</body>
+</html>
